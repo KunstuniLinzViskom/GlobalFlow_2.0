@@ -20,7 +20,7 @@ The datavisualisation is based on the Global Migration Data Sheet made in 2013 a
 The d3 programming of the first version of „Global low of People“ was made by null2 (https://github.com/null2/globalmigration), Andreas Pieper (https://github.com/argl),  Johannes Jörg Schmidt (https://github.com/jo) hosted at http://www.global-migration.info/ and published by Science in 2013
 
 ## License
-Copyright (c) 2023 Unversity of Arts Linz, department Visual Communication
+Copyright (c) 2023 University of Arts Linz, department Visual Communication
 This work is licensed under a Creative Commons | Attribution-NonCommercial-ShareAlike 4.0 Unported License. The datavisualisation was inspired by Circos (http://circos.ca). 
 
  
