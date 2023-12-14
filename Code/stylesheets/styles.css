@@ -1,0 +1,66 @@
+#global-flow .container {
+  margin: 0 auto;
+  min-width: 580px;
+  max-width: 1200px;
+  background-color: #FFF;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------
+   SVG styles
+   ---------------------------------------------------------*/
+#global-flow svg {
+  font-size: 12px;
+  max-width: 100%;
+  vector-effect: non-scaling-stroke;
+}
+#global-flow .info, .label {
+  pointer-events: none;
+}
+#global-flow .info text {
+  fill: white;
+}
+
+#global-flow #circle circle {
+  fill: none;
+  pointer-events: all;
+}
+#global-flow text {
+  cursor: default;
+  fill: #333;
+}
+#global-flow .group-arc + text {
+  -webkit-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+#global-flow .group-arc.animate + text {
+  opacity: 0;
+}
+#global-flow #circle path {
+  -webkit-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+#global-flow #circle:hover path.fade,
+#global-flow #circle path.unselected {
+  opacity: 0;
+  pointer-events: none;
+}
+#global-flow text.fade {
+  opacity: 0;
+}
+#global-flow .group-arc {
+  cursor: pointer;
+}
+#global-flow text.region {
+  font-size: 13px;
+}
+#global-flow .chord {
+  opacity: 0.75;
+}
+#global-flow .chord:hover {
+  opacity: 1;
+}
